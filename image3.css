@@ -1,0 +1,45 @@
+.container{
+    position: fixed;
+    height: 90%;
+    width: 90%;
+    background-color: aqua;
+    display: grid;
+    gap: 25px;
+    grid-template-areas: ;
+    grid-template-areas: 
+    'he he he he he'
+    'as as ar ar ar'
+    'as as ar ar ar'
+    'as as ar ar ar'
+    'as as ar ar ar'
+    'fe fe fe fe fe';
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.item1{
+    grid-area: he;
+    background-color: rgb(1, 146, 141);
+}
+.item2{
+    grid-area: as;
+    background-color: rgb(114, 218, 116);
+    
+}
+.item3{
+    grid-area: ar;
+    background-color: rgb(231, 156, 42);
+    display: flex;
+    align-content: end;
+
+}
+.item4{
+    grid-area: fe;
+    background-color: rgb(1, 146, 141);
+}
+div>div{
+    text-align: center;
+    color: white;
+    font-size: large;
+    align-content: center;
+}
