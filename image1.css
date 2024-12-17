@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    gap: 25px;
+    grid-template-areas: 
+    'header header header header header header'
+    'section2 section2 main main main main'
+    'section2 section2 main main main main'
+    'section2 section2 main main main main'
+    'secction3 secction3 extra'
+     'secction3 secction3 main main main main'
+      'secction3 secction3 main main main main'
+       'secction3 secction3 main main main main'
+    ;
+}
+div>div{
+    background-color: blue;
+}
